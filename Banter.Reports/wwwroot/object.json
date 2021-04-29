@@ -1,0 +1,31 @@
+{
+  "select_columns": [
+    "id",
+    "other_id",
+    "other_name",
+    "message",
+    "status",
+    "msg_time",
+    "temp_id"
+  ],
+  "filter_groups": {
+    "operator": "and",
+    "filters": [
+      {
+        "field": "other_type",
+        "cond": "eq",
+        "val": "group"
+      },
+      {
+        "field": "other_id",
+        "cond": "eq",
+        "val": "1618901469947957"
+      },
+      {
+        "field": "status",
+        "cond": "eq",
+        "val": "delivery success"
+      }
+    ]
+  }
+}
